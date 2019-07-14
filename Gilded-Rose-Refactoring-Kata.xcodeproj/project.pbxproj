@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F63230F22D7CFD200CCF8D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F63230E22D7CFD200CCF8D4 /* AppDelegate.swift */; };
+		2F63231122D7CFD200CCF8D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F63231022D7CFD200CCF8D4 /* ViewController.swift */; };
+		2F63231422D7CFD200CCF8D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F63231222D7CFD200CCF8D4 /* Main.storyboard */; };
+		2F63231622D7CFD400CCF8D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F63231522D7CFD400CCF8D4 /* Assets.xcassets */; };
+		2F63231922D7CFD400CCF8D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F63231722D7CFD400CCF8D4 /* LaunchScreen.storyboard */; };
+		2F63232422D7CFD400CCF8D4 /* Gilded_Rose_Refactoring_KataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F63232322D7CFD400CCF8D4 /* Gilded_Rose_Refactoring_KataTests.swift */; };
+		2F63232F22D7CFD400CCF8D4 /* Gilded_Rose_Refactoring_KataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F63232E22D7CFD400CCF8D4 /* Gilded_Rose_Refactoring_KataUITests.swift */; };
+		2F63233E22D7D01C00CCF8D4 /* GildedRose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F63233C22D7D01C00CCF8D4 /* GildedRose.swift */; };
+		2F63233F22D7D01C00CCF8D4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F63233D22D7D01C00CCF8D4 /* Item.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F63232022D7CFD400CCF8D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F63230322D7CFD200CCF8D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F63230A22D7CFD200CCF8D4;
+			remoteInfo = "Gilded-Rose-Refactoring-Kata";
+		};
+		2F63232B22D7CFD400CCF8D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F63230322D7CFD200CCF8D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F63230A22D7CFD200CCF8D4;
+			remoteInfo = "Gilded-Rose-Refactoring-Kata";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F63230B22D7CFD200CCF8D4 /* Gilded-Rose-Refactoring-Kata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gilded-Rose-Refactoring-Kata.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F63230E22D7CFD200CCF8D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F63231022D7CFD200CCF8D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F63231322D7CFD200CCF8D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F63231522D7CFD400CCF8D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F63231822D7CFD400CCF8D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F63231A22D7CFD400CCF8D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F63231F22D7CFD400CCF8D4 /* Gilded-Rose-Refactoring-KataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gilded-Rose-Refactoring-KataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F63232322D7CFD400CCF8D4 /* Gilded_Rose_Refactoring_KataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gilded_Rose_Refactoring_KataTests.swift; sourceTree = "<group>"; };
+		2F63232522D7CFD400CCF8D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F63232A22D7CFD400CCF8D4 /* Gilded-Rose-Refactoring-KataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gilded-Rose-Refactoring-KataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F63232E22D7CFD400CCF8D4 /* Gilded_Rose_Refactoring_KataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gilded_Rose_Refactoring_KataUITests.swift; sourceTree = "<group>"; };
+		2F63233022D7CFD400CCF8D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F63233C22D7D01C00CCF8D4 /* GildedRose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GildedRose.swift; sourceTree = "<group>"; };
+		2F63233D22D7D01C00CCF8D4 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F63230822D7CFD200CCF8D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F63231C22D7CFD400CCF8D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F63232722D7CFD400CCF8D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F63230222D7CFD200CCF8D4 = {
+			isa = PBXGroup;
+			children = (
+				2F63230D22D7CFD200CCF8D4 /* Gilded-Rose-Refactoring-Kata */,
+				2F63232222D7CFD400CCF8D4 /* Gilded-Rose-Refactoring-KataTests */,
+				2F63232D22D7CFD400CCF8D4 /* Gilded-Rose-Refactoring-KataUITests */,
+				2F63230C22D7CFD200CCF8D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F63230C22D7CFD200CCF8D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F63230B22D7CFD200CCF8D4 /* Gilded-Rose-Refactoring-Kata.app */,
+				2F63231F22D7CFD400CCF8D4 /* Gilded-Rose-Refactoring-KataTests.xctest */,
+				2F63232A22D7CFD400CCF8D4 /* Gilded-Rose-Refactoring-KataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F63230D22D7CFD200CCF8D4 /* Gilded-Rose-Refactoring-Kata */ = {
+			isa = PBXGroup;
+			children = (
+				2F63230E22D7CFD200CCF8D4 /* AppDelegate.swift */,
+				2F63231022D7CFD200CCF8D4 /* ViewController.swift */,
+				2F63231222D7CFD200CCF8D4 /* Main.storyboard */,
+				2F63231522D7CFD400CCF8D4 /* Assets.xcassets */,
+				2F63231722D7CFD400CCF8D4 /* LaunchScreen.storyboard */,
+				2F63231A22D7CFD400CCF8D4 /* Info.plist */,
+				2F63233C22D7D01C00CCF8D4 /* GildedRose.swift */,
+				2F63233D22D7D01C00CCF8D4 /* Item.swift */,
+			);
+			path = "Gilded-Rose-Refactoring-Kata";
+			sourceTree = "<group>";
+		};
+		2F63232222D7CFD400CCF8D4 /* Gilded-Rose-Refactoring-KataTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F63232322D7CFD400CCF8D4 /* Gilded_Rose_Refactoring_KataTests.swift */,
+				2F63232522D7CFD400CCF8D4 /* Info.plist */,
+			);
+			path = "Gilded-Rose-Refactoring-KataTests";
+			sourceTree = "<group>";
+		};
+		2F63232D22D7CFD400CCF8D4 /* Gilded-Rose-Refactoring-KataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F63232E22D7CFD400CCF8D4 /* Gilded_Rose_Refactoring_KataUITests.swift */,
+				2F63233022D7CFD400CCF8D4 /* Info.plist */,
+			);
+			path = "Gilded-Rose-Refactoring-KataUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F63230A22D7CFD200CCF8D4 /* Gilded-Rose-Refactoring-Kata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F63233322D7CFD400CCF8D4 /* Build configuration list for PBXNativeTarget "Gilded-Rose-Refactoring-Kata" */;
+			buildPhases = (
+				2F63230722D7CFD200CCF8D4 /* Sources */,
+				2F63230822D7CFD200CCF8D4 /* Frameworks */,
+				2F63230922D7CFD200CCF8D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gilded-Rose-Refactoring-Kata";
+			productName = "Gilded-Rose-Refactoring-Kata";
+			productReference = 2F63230B22D7CFD200CCF8D4 /* Gilded-Rose-Refactoring-Kata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F63231E22D7CFD400CCF8D4 /* Gilded-Rose-Refactoring-KataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F63233622D7CFD400CCF8D4 /* Build configuration list for PBXNativeTarget "Gilded-Rose-Refactoring-KataTests" */;
+			buildPhases = (
+				2F63231B22D7CFD400CCF8D4 /* Sources */,
+				2F63231C22D7CFD400CCF8D4 /* Frameworks */,
+				2F63231D22D7CFD400CCF8D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F63232122D7CFD400CCF8D4 /* PBXTargetDependency */,
+			);
+			name = "Gilded-Rose-Refactoring-KataTests";
+			productName = "Gilded-Rose-Refactoring-KataTests";
+			productReference = 2F63231F22D7CFD400CCF8D4 /* Gilded-Rose-Refactoring-KataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F63232922D7CFD400CCF8D4 /* Gilded-Rose-Refactoring-KataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F63233922D7CFD400CCF8D4 /* Build configuration list for PBXNativeTarget "Gilded-Rose-Refactoring-KataUITests" */;
+			buildPhases = (
+				2F63232622D7CFD400CCF8D4 /* Sources */,
+				2F63232722D7CFD400CCF8D4 /* Frameworks */,
+				2F63232822D7CFD400CCF8D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F63232C22D7CFD400CCF8D4 /* PBXTargetDependency */,
+			);
+			name = "Gilded-Rose-Refactoring-KataUITests";
+			productName = "Gilded-Rose-Refactoring-KataUITests";
+			productReference = 2F63232A22D7CFD400CCF8D4 /* Gilded-Rose-Refactoring-KataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F63230322D7CFD200CCF8D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Hamza EL AIDI";
+				TargetAttributes = {
+					2F63230A22D7CFD200CCF8D4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2F63231E22D7CFD400CCF8D4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2F63230A22D7CFD200CCF8D4;
+					};
+					2F63232922D7CFD400CCF8D4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2F63230A22D7CFD200CCF8D4;
+					};
+				};
+			};
+			buildConfigurationList = 2F63230622D7CFD200CCF8D4 /* Build configuration list for PBXProject "Gilded-Rose-Refactoring-Kata" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F63230222D7CFD200CCF8D4;
+			productRefGroup = 2F63230C22D7CFD200CCF8D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F63230A22D7CFD200CCF8D4 /* Gilded-Rose-Refactoring-Kata */,
+				2F63231E22D7CFD400CCF8D4 /* Gilded-Rose-Refactoring-KataTests */,
+				2F63232922D7CFD400CCF8D4 /* Gilded-Rose-Refactoring-KataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F63230922D7CFD200CCF8D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F63231922D7CFD400CCF8D4 /* LaunchScreen.storyboard in Resources */,
+				2F63231622D7CFD400CCF8D4 /* Assets.xcassets in Resources */,
+				2F63231422D7CFD200CCF8D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F63231D22D7CFD400CCF8D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F63232822D7CFD400CCF8D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F63230722D7CFD200CCF8D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F63233F22D7D01C00CCF8D4 /* Item.swift in Sources */,
+				2F63231122D7CFD200CCF8D4 /* ViewController.swift in Sources */,
+				2F63233E22D7D01C00CCF8D4 /* GildedRose.swift in Sources */,
+				2F63230F22D7CFD200CCF8D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F63231B22D7CFD400CCF8D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F63232422D7CFD400CCF8D4 /* Gilded_Rose_Refactoring_KataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F63232622D7CFD400CCF8D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F63232F22D7CFD400CCF8D4 /* Gilded_Rose_Refactoring_KataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F63232122D7CFD400CCF8D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F63230A22D7CFD200CCF8D4 /* Gilded-Rose-Refactoring-Kata */;
+			targetProxy = 2F63232022D7CFD400CCF8D4 /* PBXContainerItemProxy */;
+		};
+		2F63232C22D7CFD400CCF8D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F63230A22D7CFD200CCF8D4 /* Gilded-Rose-Refactoring-Kata */;
+			targetProxy = 2F63232B22D7CFD400CCF8D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F63231222D7CFD200CCF8D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F63231322D7CFD200CCF8D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F63231722D7CFD400CCF8D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F63231822D7CFD400CCF8D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F63233122D7CFD400CCF8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F63233222D7CFD400CCF8D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F63233422D7CFD400CCF8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDSWL7G2XC;
+				INFOPLIST_FILE = "Gilded-Rose-Refactoring-Kata/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal.Gilded-Rose-Refactoring-Kata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F63233522D7CFD400CCF8D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDSWL7G2XC;
+				INFOPLIST_FILE = "Gilded-Rose-Refactoring-Kata/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal.Gilded-Rose-Refactoring-Kata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F63233722D7CFD400CCF8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDSWL7G2XC;
+				INFOPLIST_FILE = "Gilded-Rose-Refactoring-KataTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal.Gilded-Rose-Refactoring-KataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gilded-Rose-Refactoring-Kata.app/Gilded-Rose-Refactoring-Kata";
+			};
+			name = Debug;
+		};
+		2F63233822D7CFD400CCF8D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDSWL7G2XC;
+				INFOPLIST_FILE = "Gilded-Rose-Refactoring-KataTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal.Gilded-Rose-Refactoring-KataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gilded-Rose-Refactoring-Kata.app/Gilded-Rose-Refactoring-Kata";
+			};
+			name = Release;
+		};
+		2F63233A22D7CFD400CCF8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDSWL7G2XC;
+				INFOPLIST_FILE = "Gilded-Rose-Refactoring-KataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal.Gilded-Rose-Refactoring-KataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gilded-Rose-Refactoring-Kata";
+			};
+			name = Debug;
+		};
+		2F63233B22D7CFD400CCF8D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDSWL7G2XC;
+				INFOPLIST_FILE = "Gilded-Rose-Refactoring-KataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal.Gilded-Rose-Refactoring-KataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gilded-Rose-Refactoring-Kata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F63230622D7CFD200CCF8D4 /* Build configuration list for PBXProject "Gilded-Rose-Refactoring-Kata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F63233122D7CFD400CCF8D4 /* Debug */,
+				2F63233222D7CFD400CCF8D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F63233322D7CFD400CCF8D4 /* Build configuration list for PBXNativeTarget "Gilded-Rose-Refactoring-Kata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F63233422D7CFD400CCF8D4 /* Debug */,
+				2F63233522D7CFD400CCF8D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F63233622D7CFD400CCF8D4 /* Build configuration list for PBXNativeTarget "Gilded-Rose-Refactoring-KataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F63233722D7CFD400CCF8D4 /* Debug */,
+				2F63233822D7CFD400CCF8D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F63233922D7CFD400CCF8D4 /* Build configuration list for PBXNativeTarget "Gilded-Rose-Refactoring-KataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F63233A22D7CFD400CCF8D4 /* Debug */,
+				2F63233B22D7CFD400CCF8D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F63230322D7CFD200CCF8D4 /* Project object */;
+}
